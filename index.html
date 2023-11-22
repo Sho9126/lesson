@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>拓建設</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header id="#top">
+        <nav>
+            <img src="./img/IMG_Logo.jpg" alt="logo" class="logo">
+            <ul>
+                <li><a href="#top">トップページ</a></li>
+                <li><a href="./company.html">会社概要</a></li>
+                <li><a href="./work.html">作業内容</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+        <ul class="leaf">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        <div class="main_visual">
+            <div class="wrapper">
+                <ul class="slide-items">
+                    <li><img src="./img/IMG_Shibahari3.jpg" alt="Image1"></li>
+                    <li><img src="./img/IMG_Sanpu.jpg" alt="Image2"></li>
+                    <li><img src="./img/IMG_Fuyugakoi.jpg" alt="Image3"></li>
+                </ul>
+            </div>
+        </div>
+        <section class="header_section_top">
+            <h1>拓建設</h1>
+            <h3>御庭管理、剪定、張芝等の <br>
+                造園業を専門とする会社です。 <br>
+                お仕事のご依頼等々 <br>
+                お気軽にご連絡ください。</h3>
+            <div class="return_to_top"></div>
+        </section>
+    </header>
+
+    <footer>
+        <a href="./privacy_policy.html">個人情報保護方針</a>
+        <small></small>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+	    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	        <!-- sliclsliderのプラグイン↑(slick-carousel) -->
+			<!-- プラグインを有効にしたので下のコードが有効化出来て数値を変えられる -->
+        <script>
+            $('.slide-items').slick({
+                autoplay: true, // 自動再生
+                autoplaySpeed: 3000,
+                fade: true, // スライドをフェードイン・フェードアウト
+                cssEase: 'linear',// アニメーション
+                speed: 1000, // フェードアニメーションの速度設定
+            });
+        </script>
+</body>
+
+</html>
